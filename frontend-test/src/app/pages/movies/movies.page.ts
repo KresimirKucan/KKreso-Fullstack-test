@@ -57,4 +57,6 @@ export class MoviesPage implements OnInit {
     this.currentPage++;
     this.loadMovies(event);
   }
+
+  dummyMethodForSonar() {}
 }
