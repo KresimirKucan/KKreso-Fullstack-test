@@ -41,4 +41,10 @@ export class MovieService {
       `${environment.baseUrl}/movie/${id}?api_key=${environment.apiKey}`
     );
   }
+
+  getMovieDetails1Test(id: string) {
+    return this.http.get(
+      `${environment.baseUrl}/movie/${id}?api_key=${environment.apiKey}`
+    );
+  }
 }
